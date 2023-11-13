@@ -13,3 +13,11 @@
  *= require_tree .
  *= require_self
  */
+
+ .your-quote {
+  background-color: rgba(129, 216, 250, 0.669)
+ }
+
+ .coach-quote {
+  background-color: rgba(255, 216, 150, 0.611);
+ }

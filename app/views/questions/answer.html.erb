@@ -1,0 +1,23 @@
+<div class="m-5">
+  <h1>Answer</h1>
+  <figure class="your-quote ps-3 pt-3 pe-3 pb-1 rounded">
+    <blockquote class="blockquote">
+      <p><%= params[:question] %> </p>
+    </blockquote>
+    <figcaption class="blockquote-footer">
+      You
+    </figcaption>
+  </figure>
+  <figure class="coach-quote ps-3 pt-3 pe-3 pb-1 rounded">
+    <blockquote class="blockquote">
+      <p><%=@answer%> </p>
+    </blockquote>
+    <figcaption class="blockquote-footer">
+      Your beloved coach
+    </figcaption>
+  </figure>
+  <form action="/ask">
+    <button class="btn btn-danger">Ask another question</button>
+  </form>
+  <%# <a href="/ask">Ask a new question</a> %>
+</div>
